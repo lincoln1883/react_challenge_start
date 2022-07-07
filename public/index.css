@@ -1,11 +1,18 @@
 #root {
   padding: 30px;
   font-family: "Open Sans", sans-serif;
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
 }
 
 nav > a {
   font-style: normal;
-  font-weight: normal;
+  font-weight:bolder;
   font-size: 14px;
   color: #000000;
   margin-right: 30.5px;
@@ -30,8 +37,6 @@ h2 {
   margin-bottom: 18px;
 }
 
-section {
-}
 
 hr {
   border: none;
